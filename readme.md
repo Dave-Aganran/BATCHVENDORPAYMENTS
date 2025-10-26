@@ -14,7 +14,7 @@ This allows you to validate workflow logic and data relationships before deployi
 ---
 
 ## 🏗 Folder Structure
-
+```
 processmaker_batch_payments/
 │
 ├── triggers/
@@ -42,7 +42,7 @@ processmaker_batch_payments/
 │ └── trigger_test.log # Log output from triggers
 │
 └── readme.md
-
+```
 
 ---
 
@@ -68,6 +68,7 @@ $port = '5432';
 $db   = 'vendor_batch_payments';
 $user = 'username';
 $pass = 'userpassword';
+```
 
 
 ## 🧱 Database Setup
